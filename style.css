@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+   
+}
+.child{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1{
+    background-color: rgb(0, 255, 21);
+}
+.child2{
+    background-color: rgb(0, 0, 0);
+}
+ 
+.parent1{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+.childa{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child3{
+    background-color: rgb(140, 0, 255);
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.child4{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+ 
+.one{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(229, 255, 0);
+ 
+}
+.two{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(6, 248, 66);
+ 
+}
+ 
+.parent2{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+.child5{
+    background-color: rgb(52, 11, 236);
+}
+.child6{
+    height: 100%;
+    width:50%;
+    background-color: rgb(0, 217, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+    height: 50%;
+    width: 25%;
+    background-color: rgb(132, 0, 255);
+}
+.child7{
+    background-color: rgb(6, 3, 46);
+}
+.parent3{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    justify-content: center;
+}
+.child8{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(66, 0, 247);
+}
+.child9{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(5, 65, 10);
+}
+.child10{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(219, 0, 128);
+}
+.child11{
+    height: 100%;
+    width: 50%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.four{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(38, 3, 39);
+    display: flex;
+    gap: 5px;
+}
+.five{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(6, 78, 51);
+    display: flex;
+    gap: 5px;
+}
